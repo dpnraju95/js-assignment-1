@@ -9,7 +9,6 @@ function BMICalculator(mass, height) {
     if(mass === 0){
         return 'INVALID INPUT'
     }
-
     return ((mass)/(height*height))
 }
 
